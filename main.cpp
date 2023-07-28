@@ -5,6 +5,8 @@
 #include <iostream>
 #include <random>
 #include <stdexcept>
+#include <typeinfo>
+#include <array>
 
 using namespace std;
 
@@ -113,4 +115,6 @@ int main() {
         }
     }
     cerr << "Done"s << endl;
+    
 }
+
